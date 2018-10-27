@@ -1,0 +1,98 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(images/qbkls.png);
+
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.topHeaderContainer {
+    border-bottom:2px solid #cccccc; 
+    width: 100%;
+}
+
+.navCustom {
+    width: 980px; 
+    margin: auto;
+}
+
+/* .customContainer{
+    width:980px; 
+    background-color: #ffffff;
+} */
+.aboutMeRow {
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', 'Times', 'Times New Roman','serif';
+    color: #4aaaac;
+}
+
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 200%;
+
+}
+
+.footerCustom {
+    background-color: #666666;
+    border-top: 2px solid #4aaaac;
+    bottom:0;
+    color: #ffffff;
+}
+
+/* /* .card-footer {
+    position:relative;
+} */
+
+.portfolioTitles {
+    background-color: #4aaaac;
+    color: #ffffff;
+    text-align:center;
+}
+
+.btnCustom {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaac;
+    color: #ffffff;
+    border-color: #4aaaac;
+}
+
+/* @media screen and (max-width:575px){
+    .container{
+        width:100%;
+    }
+    .footer{
+        width:100%;
+    }
+} */
+
+.btn-linkedin {
+    background: #4aaaac;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    justify-content: center;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
+  .btn-github {
+    background: #4aaaac;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    justify-content: center;
+  }
